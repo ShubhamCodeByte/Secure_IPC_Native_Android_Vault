@@ -1,0 +1,7 @@
+com.vault.app-pngs-0 E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\build\generated\res\pngs\debug
+com.vault.app-resValues-1 E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\build\generated\res\resValues\debug
+com.vault.app-packageDebugResources-2 E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.vault.app-packageDebugResources-3 E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.vault.app-merged_res-4 E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\build\intermediates\merged_res\debug
+com.vault.app-debug-5 E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\src\debug\res
+com.vault.app-main-6 E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\src\main\res

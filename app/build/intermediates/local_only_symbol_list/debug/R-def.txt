@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+id pinInput
+id statusText
+id unlockButton
+layout activity_main

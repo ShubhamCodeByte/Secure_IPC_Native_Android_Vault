@@ -1,0 +1,4 @@
+int id pinInput 0x7f010000
+int id statusText 0x7f010001
+int id unlockButton 0x7f010002
+int layout activity_main 0x7f020000

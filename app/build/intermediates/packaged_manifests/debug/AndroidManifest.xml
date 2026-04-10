@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vault" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34" />
+
+    <application
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:label="Secure Vault"
+        android:theme="@android:style/Theme.Material.Light" >
+        <activity
+            android:name="com.vault.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.vault.VaultService"
+            android:exported="false"
+            android:process=":secure_vault_process" />
+    </application>
+
+</manifest>
