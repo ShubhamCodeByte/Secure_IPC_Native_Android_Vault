@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.vault'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.vault"
+        minSdk 24
+        targetSdk 34
+    }
+
+    // --- ADD THIS BLOCK ---
+    buildFeatures {
+        aidl true
+    }
+    // ----------------------
+
+    // This tells Gradle: "Look in the aidl folder for our bridge files"
+    sourceSets {
+        main {
+            aidl.srcDirs = ['src/main/aidl']
+        }
+    }
+}
