@@ -4,26 +4,27 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.util.Log;
 
 public class VaultService extends Service {
-  private static final String TAG = "VaultService";
 
-  // This is the implementation of our AIDL contract
-  private final IVaultInterface.Stub mBinder = new IVaultInterface.Stub() {
-    @Override
-    public boolean checkPin(String pin) throws RemoteException {
-      Log.d(TAG, "Received PIN check request in isolated process");
-
-      // For Day 3, we use a simple Java check.
-      // In Day 5, we will move this logic to C++!
-      return "1234".equals(pin);
+    // 1. Tell Java to load the 'vault' library we built in C++
+    static {
+        System.loadLibrary("vault");
     }
-  };
 
-  @Override
-  public IBinder onBind(Intent intent) {
-    // When the UI connects, we give them the 'mBinder' bridge
-    return mBinder;
-  }
+    // 2. Declare the native function (The "Native" keyword is key)
+    public native boolean checkPinNative(String pin);
+
+    private final IVaultInterface.Stub mBinder = new IVaultInterface.Stub() {
+        @Override
+        public boolean checkPin(String pin) throws RemoteException {
+            // 3. Now we call the C++ layer instead of Java!
+            return checkPinNative(pin);
+        }
+    };
+
+    @Override
+    public IBinder onBind(Intent intent) {
+        return mBinder;
+    }
 }

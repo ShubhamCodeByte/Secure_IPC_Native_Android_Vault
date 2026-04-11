@@ -27,7 +27,20 @@
   },
   {
     "level_": 0,
-    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "message_": "- a hard configure file changed, will remove stale configuration folder",
+    "file_": "E:\\Professional\\Technical\\AOSP\\Project\\Secure_IPC_Native_Android_Vault\\app\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "  - E:\\Professional\\Technical\\AOSP\\Project\\Secure_IPC_Native_Android_Vault\\app\\.cxx\\Debug\\3x585j6l\\x86\\metadata_generation_command.txt (LAST_MODIFIED_CHANGED)",
     "file_": "E:\\Professional\\Technical\\AOSP\\Project\\Secure_IPC_Native_Android_Vault\\app\\CMakeLists.txt",
     "tag_": "debug|x86",
     "diagnosticCode_": 0,
@@ -119,19 +132,6 @@
   {
     "level_": 0,
     "message_": "done executing cmake",
-    "file_": "E:\\Professional\\Technical\\AOSP\\Project\\Secure_IPC_Native_Android_Vault\\app\\CMakeLists.txt",
-    "tag_": "debug|x86",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "hard linked E:\\Professional\\Technical\\AOSP\\Project\\Secure_IPC_Native_Android_Vault\\app\\.cxx\\Debug\\3x585j6l\\x86\\compile_commands.json to E:\\Professional\\Technical\\AOSP\\Project\\Secure_IPC_Native_Android_Vault\\app\\.cxx\\tools\\debug\\x86\\compile_commands.json",
     "file_": "E:\\Professional\\Technical\\AOSP\\Project\\Secure_IPC_Native_Android_Vault\\app\\CMakeLists.txt",
     "tag_": "debug|x86",
     "diagnosticCode_": 0,
