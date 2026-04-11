@@ -1,3 +1,3 @@
 # ninja log v5
-1	356	7976179410175274	CMakeFiles/vault.dir/src/main/cpp/native-lib.cpp.o	89743981a3037945
-358	467	7976179411360504	../../../../build/intermediates/cxx/Debug/3x585j6l/obj/armeabi-v7a/libvault.so	8175c21171a55aef
+0	348	7976188142980037	CMakeFiles/vault.dir/src/main/cpp/native-lib.cpp.o	89743981a3037945
+349	437	7976188143868281	../../../../build/intermediates/cxx/Debug/3x585j6l/obj/armeabi-v7a/libvault.so	8175c21171a55aef
