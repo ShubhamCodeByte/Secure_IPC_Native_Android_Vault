@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vault">
-
+    >
+<!-- package="com.vault" this i have removed from the manifest header  -->
     <application
         android:label="Secure Vault"
         android:theme="@android:style/Theme.Material.Light">

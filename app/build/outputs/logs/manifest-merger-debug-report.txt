@@ -3,7 +3,6 @@ manifest
 ADDED from E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\src\main\AndroidManifest.xml:3:5-24
 		INJECTED from E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\src\main\AndroidManifest.xml:2:11-69

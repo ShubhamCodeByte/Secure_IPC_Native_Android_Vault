@@ -5,7 +5,7 @@
     <uses-sdk
         android:minSdkVersion="24"
         android:targetSdkVersion="34" />
-
+    <!-- package="com.vault" this i have removed from the manifest header -->
     <application
         android:debuggable="true"
         android:extractNativeLibs="false"

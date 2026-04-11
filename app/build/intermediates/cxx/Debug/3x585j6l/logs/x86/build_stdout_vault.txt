@@ -1,0 +1,3 @@
+ninja: Entering directory `E:\Professional\Technical\AOSP\Project\Secure_IPC_Native_Android_Vault\app\.cxx\Debug\3x585j6l\x86'
+[1/2] Building CXX object CMakeFiles/vault.dir/src/main/cpp/native-lib.cpp.o
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cxx\Debug\3x585j6l\obj\x86\libvault.so

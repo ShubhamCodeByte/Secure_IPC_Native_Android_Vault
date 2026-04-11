@@ -22,4 +22,12 @@ android {
             aidl.srcDirs = ['src/main/aidl']
         }
     }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    ndkVersion "25.1.8937393"
 }
